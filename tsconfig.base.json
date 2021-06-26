@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@transcriptor/ui": ["packages/ui/src/index.ts"],
+      "@transcriptor/util": ["packages/util/src/index.ts"],
+      "@transcriptor/util-slate-helpers": [
+        "packages/util-slate-helpers/src/index.ts"
+      ]
+    },
+    "typeRoots": ["types"]
   },
   "exclude": ["node_modules", "tmp"]
 }

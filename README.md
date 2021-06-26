@@ -1,4 +1,4 @@
-
+This is a work in progress! I'm converting https://github.com/pietrop/slate-transcript-editor to a monorepo. See the original repository for licence information.
 
 # SlateTranscriptEditor
 
@@ -45,7 +45,7 @@ Run `nx g @nrwl/react:lib my-lib` to generate a library.
 
 > You can also use any of the plugins above to generate libraries as well.
 
-Libraries are shareable across libraries and applications. They can be imported from `@slate-transcript-editor/mylib`.
+Libraries are shareable across libraries and applications. They can be imported from `@transcriptor/mylib`.
 
 ## Development server
 
@@ -78,8 +78,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 

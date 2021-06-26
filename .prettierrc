@@ -1,3 +1,4 @@
 {
+  "plugins": ["./node_modules/prettier-plugin-organize-imports"],
   "singleQuote": true
 }

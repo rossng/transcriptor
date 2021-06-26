@@ -1,5 +1,5 @@
 {
-  "npmScope": "slate-transcript-editor",
+  "npmScope": "transcriptor",
   "affected": {
     "defaultBase": "master"
   },
@@ -18,12 +18,27 @@
           "build",
           "lint",
           "test",
-          "e2e"
+          "e2e",
+          "build-storybook"
         ]
       }
     }
   },
-  "projects": {},
+  "projects": {
+    "ui": {
+      "tags": []
+    },
+    "ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ui"]
+    },
+    "util": {
+      "tags": []
+    },
+    "util-slate-helpers": {
+      "tags": []
+    }
+  },
   "workspaceLayout": {
     "appsDir": "packages",
     "libsDir": "packages"
